@@ -1,6 +1,6 @@
 # Roteiro de pré-teste e pós-teste — Conservação da Energia Mecânica
 
-> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`laboratorios/05_conservacao_energia_mecanica.py`](../laboratorios/05_conservacao_energia_mecanica.py).
+> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`05_conservacao_energia_mecanica.py`](05_conservacao_energia_mecanica.py).
 
 Público-alvo: Ensino Médio  
 Objetivo: analisar a transformação entre energia potencial gravitacional e energia cinética em uma pista.  

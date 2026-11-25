@@ -1,6 +1,6 @@
 # Roteiro de pré-teste e pós-teste — Coeficiente de Restituição
 
-> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`laboratorios/06_coeficiente_restituicao.py`](../laboratorios/06_coeficiente_restituicao.py).
+> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`06_coeficiente_restituicao.py`](06_coeficiente_restituicao.py).
 
 Público-alvo: Ensino Médio  
 Tema: colisões verticais, energia mecânica e coeficiente de restituição  

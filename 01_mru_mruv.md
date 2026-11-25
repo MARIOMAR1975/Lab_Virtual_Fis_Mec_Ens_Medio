@@ -1,6 +1,6 @@
 # Roteiro de pré-teste e pós-teste — MRU e MRUV
 
-> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`laboratorios/01_mru_mruv.py`](../laboratorios/01_mru_mruv.py).
+> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`01_mru_mruv.py`](01_mru_mruv.py).
 
 Público-alvo: estudantes do Ensino Médio.  
 Objetivo: diagnosticar conhecimentos prévios e verificar aprendizagem após o uso do laboratório virtual.  

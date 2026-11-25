@@ -6,7 +6,7 @@ com simulação animada, gráficos em tempo real, tabela experimental, exportaç
 roteiro de pré-teste/pós-teste.
 
 - **Repositório:** https://github.com/MARIOMAR1975/Lab_Virtual_Fis_Mec_Ens_Medio
-- **Versão publicada:** `v1.0.0` (22/11/2026) — ver [CHANGELOG.md](CHANGELOG.md)
+- **Versão do conjunto:** `v1.0.0` (22/11/2026) — ver [CHANGELOG.md](CHANGELOG.md)
 - **Licença:** [MIT](LICENSE) — uso, cópia, modificação e distribuição livres, com aviso de autoria
 - **Autor:** Mario Omar Calla Salcedo
 
@@ -14,12 +14,12 @@ roteiro de pré-teste/pós-teste.
 
 | # | Módulo (código-fonte) | O que simula | Roteiro |
 |---|---|---|---|
-| 1 | [`01_mru_mruv.py`](laboratorios/01_mru_mruv.py) | Carrinho sobre mesa com sensor e régua; MRU e MRUV; gráficos x(t), v(t), a(t); ajuste de curva opcional; erro experimental opcional | [roteiro](roteiros/01_mru_mruv.md) |
-| 2 | [`02_queda_livre.py`](laboratorios/02_queda_livre.py) | Queda livre ideal: h(t) = h₀ − ½gt², v = gt; ajuste h₀ = A·t²; tabela de ensaios | [roteiro](roteiros/02_queda_livre.md) |
-| 3 | [`03_movimento_parabolico.py`](laboratorios/03_movimento_parabolico.py) | Lançamento oblíquo: x(t), y(t), vx(t), vy(t); ângulo, altura inicial e gravidade (Terra, Lua, Marte, Júpiter) | [roteiro](roteiros/03_movimento_parabolico.md) |
-| 4 | [`04_segunda_lei_newton.py`](laboratorios/04_segunda_lei_newton.py) | Carrinho ligado por fio e polia a um bloco suspenso, com atrito (μ); F, a, T; ajustes linear e hiperbólico | [roteiro](roteiros/04_segunda_lei_newton.md) |
-| 5 | [`05_conservacao_energia_mecanica.py`](laboratorios/05_conservacao_energia_mecanica.py) | Carrinho em pista (montanhas, rampa ou vale), com e sem atrito; Ep, Ec, Em e energia dissipada | [roteiro](roteiros/05_conservacao_energia_mecanica.md) |
-| 6 | [`06_coeficiente_restituicao.py`](laboratorios/06_coeficiente_restituicao.py) | Bolinha que quica; alturas H₀, H₁, H₂…; estimativa de e = √(Hᵢ/Hᵢ₋₁) por alturas e por velocidades | [roteiro](roteiros/06_coeficiente_restituicao.md) |
+| 1 | [`01_mru_mruv.py`](01_mru_mruv.py) | Carrinho sobre mesa com sensor e régua; MRU e MRUV; gráficos x(t), v(t), a(t); ajuste de curva opcional; erro experimental opcional | [roteiro](01_mru_mruv.md) |
+| 2 | [`02_queda_livre.py`](02_queda_livre.py) | Queda livre ideal: h(t) = h₀ − ½gt², v = gt; ajuste h₀ = A·t²; tabela de ensaios | [roteiro](02_queda_livre.md) |
+| 3 | [`03_movimento_parabolico.py`](03_movimento_parabolico.py) | Lançamento oblíquo: x(t), y(t), vx(t), vy(t); ângulo, altura inicial e gravidade (Terra, Lua, Marte, Júpiter) | [roteiro](03_movimento_parabolico.md) |
+| 4 | [`04_segunda_lei_newton.py`](04_segunda_lei_newton.py) | Carrinho ligado por fio e polia a um bloco suspenso, com atrito (μ); F, a, T; ajustes linear e hiperbólico | [roteiro](04_segunda_lei_newton.md) |
+| 5 | [`05_conservacao_energia_mecanica.py`](05_conservacao_energia_mecanica.py) | Carrinho em pista (montanhas, rampa ou vale), com e sem atrito; Ep, Ec, Em e energia dissipada | [roteiro](05_conservacao_energia_mecanica.md) |
+| 6 | [`06_coeficiente_restituicao.py`](06_coeficiente_restituicao.py) | Bolinha que quica; alturas H₀, H₁, H₂…; estimativa de e = √(Hᵢ/Hᵢ₋₁) por alturas e por velocidades | [roteiro](06_coeficiente_restituicao.md) |
 
 Todos os módulos oferecem: botões Iniciar/Pausar/Passo/Resetar, tabela experimental,
 exportação em **CSV**, relatório em **TXT** e roteiro de **pré-teste/pós-teste** (botões do próprio aplicativo).
@@ -42,10 +42,10 @@ pip install -r requirements.txt
 python verificar_instalacao.py
 
 # 5) abrir um laboratório
-python laboratorios/01_mru_mruv.py
+python 01_mru_mruv.py
 ```
 
-Instruções detalhadas por sistema operacional: [docs/INSTALACAO.md](docs/INSTALACAO.md).
+Instruções detalhadas por sistema operacional: [INSTALACAO.md](INSTALACAO.md).
 
 ## Dependências
 
@@ -61,19 +61,20 @@ Nenhum módulo usa navegador, servidor local ou conexão de rede.
 
 ## Estrutura do repositório
 
-```
-laboratorios/   6 módulos (código-fonte)
-roteiros/       6 roteiros de pré-teste e pós-teste (Markdown)
-docs/           instruções de instalação
-requirements.txt · verificar_instalacao.py · CHANGELOG.md · CITATION.cff · LICENSE
-```
+Os arquivos estão na pasta principal do projeto. Cada módulo `.py` possui
+um roteiro `.md` com o mesmo nome. A pasta principal também contém
+`INSTALACAO.md`, `requirements.txt`, `verificar_instalacao.py`,
+`CHANGELOG.md`, `CITATION.cff` e `LICENSE`.
 
 ## Verificação realizada
 
-Na versão 1.0.0, os seis módulos foram abertos em ambiente Linux (Python 3.12.3, numpy 2.5.4,
-matplotlib 3.11.2, scipy 1.18.1, tkinter 8.6), sem janela física (Xvfb), e executaram por 3 segundos
-sem erro antes de serem fechados. A verificação de sintaxe de todos os arquivos está em
-`verificar_instalacao.py`.
+Em 25/11/2026, o comando `python verificar_instalacao.py` verificou as
+bibliotecas e compilou os seis módulos em ambiente Linux com Python 3.12.14,
+NumPy 2.3.5, Matplotlib 3.10.8, SciPy 1.17.0 e Tkinter 9.0.
+
+Esse procedimento confere a importação das bibliotecas e a sintaxe dos módulos.
+A verificação do funcionamento dos controles, dos gráficos e dos resultados
+físicos exige executar as atividades de cada roteiro.
 
 ## Como citar
 

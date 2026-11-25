@@ -1,5 +1,5 @@
 # Dependências de terceiros dos seis laboratórios (instalar com: pip install -r requirements.txt)
-# O tkinter faz parte da biblioteca padrão do Python (ver docs/INSTALACAO.md para Linux).
+# O tkinter faz parte da biblioteca padrão do Python (ver INSTALACAO.md para Linux).
 numpy>=1.24
 matplotlib>=3.7
 scipy>=1.10        # usado somente em 01_mru_mruv.py (ajuste de curva)

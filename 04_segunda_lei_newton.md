@@ -1,6 +1,6 @@
 # Roteiro de pré-teste e pós-teste — Segunda Lei de Newton
 
-> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`laboratorios/04_segunda_lei_newton.py`](../laboratorios/04_segunda_lei_newton.py).
+> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`04_segunda_lei_newton.py`](04_segunda_lei_newton.py).
 
 Tema: Sistema carrinho–bloco e relação entre força resultante, massa e aceleração.  
 

@@ -4,14 +4,14 @@
 Uso:  python verificar_instalacao.py
 
 Confere: versão do Python, tkinter, numpy, matplotlib, scipy e se os seis
-arquivos de laboratorios/ têm sintaxe válida. Não abre nenhuma janela.
+arquivos da pasta principal têm sintaxe válida. Não abre nenhuma janela.
 """
 import importlib
 import pathlib
 import py_compile
 import sys
 
-pasta = pathlib.Path(__file__).resolve().parent / "laboratorios"
+pasta = pathlib.Path(__file__).resolve().parent
 falhas = 0
 
 print(f"Python {sys.version.split()[0]}")

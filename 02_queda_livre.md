@@ -1,6 +1,6 @@
 # Roteiro de pré-teste e pós-teste — Queda Livre
 
-> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`laboratorios/02_queda_livre.py`](../laboratorios/02_queda_livre.py).
+> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`02_queda_livre.py`](02_queda_livre.py).
 
 Objetivo geral:  
 Investigar, com auxílio de um laboratório virtual offline, a relação entre altura inicial, tempo de queda e gravidade em um movimento de queda livre ideal.  

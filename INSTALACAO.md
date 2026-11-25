@@ -5,7 +5,7 @@ Os laboratórios precisam de **Python 3.10 ou superior (testado apenas na 3.12)*
 
 > Observação: com versões muito novas do Python (por exemplo 3.14), alguns pacotes podem ainda
 > não ter instalador pronto. Se `pip install` falhar, use o Python **3.12 ou 3.13**.
-> A versão testada na publicação foi a 3.12.3.
+> A verificação das bibliotecas e da sintaxe em 25/11/2026 usou Python 3.12.14.
 
 ## Windows
 
@@ -19,7 +19,7 @@ Os laboratórios precisam de **Python 3.10 ou superior (testado apenas na 3.12)*
    .venv\Scripts\activate
    pip install -r requirements.txt
    python verificar_instalacao.py
-   python laboratorios\01_mru_mruv.py
+   python 01_mru_mruv.py
    ```
 
 ## Linux (Debian/Ubuntu)
@@ -30,7 +30,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python verificar_instalacao.py
-python laboratorios/01_mru_mruv.py
+python 01_mru_mruv.py
 ```
 
 ## macOS
@@ -41,18 +41,18 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python verificar_instalacao.py
-python laboratorios/01_mru_mruv.py
+python 01_mru_mruv.py
 ```
 
 ## Executar cada módulo
 
 ```bash
-python laboratorios/01_mru_mruv.py
-python laboratorios/02_queda_livre.py
-python laboratorios/03_movimento_parabolico.py
-python laboratorios/04_segunda_lei_newton.py
-python laboratorios/05_conservacao_energia_mecanica.py
-python laboratorios/06_coeficiente_restituicao.py
+python 01_mru_mruv.py
+python 02_queda_livre.py
+python 03_movimento_parabolico.py
+python 04_segunda_lei_newton.py
+python 05_conservacao_energia_mecanica.py
+python 06_coeficiente_restituicao.py
 ```
 
 ## Problemas comuns

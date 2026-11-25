@@ -1,6 +1,6 @@
 # Roteiro de pré-teste e pós-teste — Movimento Parabólico
 
-> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`laboratorios/03_movimento_parabolico.py`](../laboratorios/03_movimento_parabolico.py).
+> Texto idêntico ao exportado pelo botão de roteiro do aplicativo [`03_movimento_parabolico.py`](03_movimento_parabolico.py).
 
 Gerado em: ____/____/______  
 Aplicação: Laboratório Virtual — Movimento Parabólico — versão 2.1  
